@@ -3,7 +3,7 @@ name = "smartextract"
 version = "1.0.0"
 edition = "2024"
 description = "A friendly terminal archive extractor for ZIP, 7z, and RAR files"
-license = "MIT"
+license = "GPL3"
 repository = "https://github.com/logancammish/smartextract"
 
 [[bin]]
