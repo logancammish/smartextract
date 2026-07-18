@@ -1,0 +1,17 @@
+[package]
+name = "smartextract"
+version = "1.0.0"
+edition = "2024"
+description = "A friendly terminal archive extractor for ZIP, 7z, and RAR files"
+license = "MIT"
+repository = "https://github.com/logancammish/smartextract"
+
+[[bin]]
+name = "smartextract"
+path = "src/main.rs"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"
